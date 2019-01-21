@@ -1,0 +1,56 @@
+body {
+  font-family: "calibri light";
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(studio.jpeg);
+  background-color: #111111;
+}
+
+br {margin-top: 0px;}
+
+.header {display: inline;}
+
+h1 {
+  margin-bottom: 0px;
+  color: red;
+  font-size: 25px;
+  letter-spacing: 7px;
+  font-weight: 100;
+  margin-top: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  color: green;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  color: blue;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin:0px;
+  color: yellow;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+}

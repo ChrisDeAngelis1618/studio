@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <link rel="stylesheet" href="styles.css">
+  <h>Webpage 1</h>
+  <br>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Display Date and Time </button>
+  <br>
+  <button type="button" onclick="popup()">execute popup function</button>
+  <br>
+  <button type="button" onclick='document.getElementById("p01").textContent = "new text"'>change text in "demo" element</button>
+  <br>
+  <img onclick="popup()" src="colorPicker.gif">
+  <br>
+  <input type="text" id="box1" name="txtJob" value="software engineer">
+  <br>
+  <h>More Header Text</h>
+  <br>
+  <button type="button" 
+        onclick='document.getElementById("p01").textContent = document.getElementById("box1").textContent'>
+  copy and paste input text *not working*
+  </button>
+  <br>
+  <p id="demo"></p>
+  <script>
+    document.getElementId("demo").innerHTML = "Hello JavaScript!");
+  </script>
+  <script>
+    function type() {
+      document.getElementById("p01").textContent = "new text";
+    }
+    function popup() {
+      var string1 = "Chris";
+      alert(42 + " " + string1);
+    }  
+  </script>
+</html>
+
