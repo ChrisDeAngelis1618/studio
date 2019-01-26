@@ -1,21 +1,134 @@
 <!DOCTYPE html>
-
-<html lang="en-US">
-  <link rel="stylesheet" href="styles.css">
- <div class="header" id="header">
-   <div style="display: flex;">
-     <h1>Chris DeAngelis</h1>
-     <hr style="margin-left: auto;">DeAngelis.Christopher@gmail.com<br>
-       (914) 262-7578</hr>
-   </div>
-   
-   <div style="display: flex;">
-     <h2>Subject Matter Expert</h2>
-   </div>
+<html lang="en">
+  <head>
+    <title>My web portfolio!</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dark.css">
+  </head>
+  <div class="div0" style="background-color:black">
+    <h1>Christopher DeAngelis
+    </h1>
+    <p>
+      <i>Comptuer Science and Mechanical Engineer</i>
+    </p>
 </div>
-  <h3>Welcome to my web development studio...</h3>
-  <p2>
-    <a href="wp1.html">Webpage 1: Display date and time</a><br>
-    <a href="wp1.html">Webpage 1: Display date and time</a><br>
+  <div class="centerDiv">
+<div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';">Mechanical Engineering</div>
+
+    
+<div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';">Computer Science</div>
+    
+<div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';">Web Development</div>
+    
+  </div>
+
+      <script>
+function create() {
+    window.location = 'wp2.html';
+}
+    </script>
+  
+<div class="div2">
+  HTML Source Code for this page:
+<p2>
+<br>&lt;!DOCTYPE html&gt;
+<br>&lt;html lang="en"&gt;
+<br>&lt;head&gt;
+<br>&lt;title&gt;My web portfolio!&lt;/title&gt;
+<br>&lt;meta charset="utf-8"&gt;
+<br>&lt;link rel="stylesheet" type="text/css" href="dark.css"&gt;
+<br>&lt;/head&gt;
+<br>&lt;div class="div0" style="background-color:black"&gt;
+<br>&lt;h1&gt;Christopher DeAngelis
+<br>&lt;/h1&gt;
+<br>&lt;p&gt;
+<br>&lt;i&gt;Comptuer Science and Mechanical Engineer&lt;/i&gt;
+<br>&lt;/p&gt;
+<br>&lt;/div&gt;
+<br>&lt;div class="centerDiv"&gt;
+<br>&lt;div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';"&gt;Mechanical Engineering&lt;/div&gt;
+
+
+<br>&lt;div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';"&gt;Computer Science&lt;/div&gt;
+
+<br>&lt;div class="div1" style="background-color:#222222; cursor:pointer;" onclick="create()" onmouseover="this.style.background='#224422';" onmouseout="this.style.background='#222222';"&gt;Web Development&lt;/div&gt;
+
+<br>&lt;/div&gt;
+
+<br>&lt;script&gt;
+function create() {
+window.location = 'wp2.html';
+}
+<br>&lt;/script&gt;
+
+<br>&lt;textarea&gt;
+<br>&lt;pre&gt;
+
+<br>&lt;/pre&gt;
+<br>&lt;/textarea&gt;
+
+<br>&lt;/html&gt;
   </p2>
+  </div>
+  <div class="div2">
+    Cascade Style Sheet for this website:
+    <p2>
+  body {
+<br>  background-color: #333333;
+<br>  color: #cccccc;
+<br>  text-align: center;
+<br>  padding: 2px;
+<br>  border:0px white;
+<br>  margin:2px;
+<br>}
+<br>
+<br>.div0 {
+<br>  border:0px white;
+<br>  padding:2px;
+<br>  margin:0px;
+<br>}
+<br>
+<br>h1 {
+<br>  border:0px white;
+<br>  padding:0px;
+<br>  margin:0px;
+<br>}
+
+p {
+  border:0px white;
+  padding:0px;
+  margin:0px;
+}
+
+p2 {
+  text-align:left;
+  color:#000000;
+  background-color:#ffffff;
+  border:0px white;
+  padding:0px;
+  margin:0px;
+  float:left;
+  font-size:8px;
+}
+
+.centerDiv {
+  width:90%;
+  margin: 0 auto;
+ }
+
+.div1 {
+  width:32%;
+  float:left;
+  height:50px;
+  line-height:50px;
+  margin:2px;
+}
+
+.div2 {
+  width:50%;
+  float:left;
+  margin:2px;
+}
+    </p2>
+  </div>
 </html>

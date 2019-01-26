@@ -1,0 +1,58 @@
+body {
+  background-color: #333333;
+  color: #cccccc;
+  text-align: center;
+  padding: 2px;
+  border:0px white;
+  margin:2px;
+}
+
+.div0 {
+  border:0px white;
+  padding:2px;
+  margin:0px;
+}
+
+h1 {
+  border:0px white;
+  padding:0px;
+  margin:0px;
+}
+
+p {
+  border:0px white;
+  padding:0px;
+  margin:0px;
+}
+
+p2 {
+  text-align:left;
+  color:#000000;
+  background-color:#ffffff;
+  border:0px white;
+  padding:0px;
+  margin:0px;
+  float:left;
+  font-size:8px;
+
+}
+
+
+.centerDiv {
+  width:90%;
+  margin: 0 auto;
+ }
+
+.div1 {
+  width:32%;
+  float:left;
+  height:50px;
+  line-height:50px;
+  margin:2px;
+}
+
+.div2 {
+  width:49.5%;
+  float:left;
+  margin:2px;
+}
